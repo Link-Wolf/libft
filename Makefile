@@ -6,7 +6,7 @@
 #    By: bdehais <bdehais@student.42mulhouse.fr>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/21 17:33:35 by bdehais           #+#    #+#              #
-#    Updated: 2022/02/23 11:40:32 by bdehais          ###   ########.fr        #
+#    Updated: 2022/02/24 17:10:22 by bdehais          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,21 +15,22 @@ SRCS = ft_isspace.c ft_striteri.c ft_putendl_fd.c ft_putnbr_fd.c ft_putchar_fd.c
 OBJS = ${SRCS:.c=.o}
 SRCS_BONUS = ft_lstmap_bonus.c ft_lstnew_bonus.c ft_lstiter_bonus.c ft_lstlast_bonus.c ft_lstsize_bonus.c ft_lstclear_bonus.c ft_lstdelone_bonus.c ft_lstadd_back_bonus.c ft_lstadd_front_bonus.c
 OBJS_BONUS = ${SRCS_BONUS:.c=.o}
+CC				= gcc
+RM				= rm -f
+CFLAGS			= -Wall -Wextra -Werror -I.
 
 all: $(NAME)
 
-$(NAME):
-	gcc -Wall -Wextra -Werror -c $(SRCS) -I libft.h
+$(NAME):	$(OBJS)
 	ar rcs $(NAME) $(OBJS)
 
 clean:
-	rm *.o
+	rm -f $(OBJS)
 
 fclean: clean
-	rm $(NAME)
+	rm -f $(NAME)
 
 re: fclean all
 
-bonus:
-	gcc -Wall -Wextra -Werror -c $(SRCS_BONUS) -I libft.h
+bonus:	$(OBJS_BONUS)
 	ar rcs $(NAME) $(OBJS_BONUS)
