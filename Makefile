@@ -6,7 +6,7 @@
 #    By: bdehais <bdehais@student.42mulhouse.fr>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/21 17:33:35 by bdehais           #+#    #+#              #
-#    Updated: 2022/02/24 17:10:22 by bdehais          ###   ########.fr        #
+#    Updated: 2022/02/28 12:21:56 by bdehais          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ $(NAME):	$(OBJS)
 	ar rcs $(NAME) $(OBJS)
 
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) $(OBJS_BONUS)
 
 fclean: clean
 	rm -f $(NAME)
@@ -34,3 +34,5 @@ re: fclean all
 
 bonus:	$(OBJS_BONUS)
 	ar rcs $(NAME) $(OBJS_BONUS)
+
+.PHONY: all bonus clean fclean re
