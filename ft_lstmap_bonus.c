@@ -6,7 +6,7 @@
 /*   By: bdehais <bdehais@student.42mulhouse.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/23 10:55:32 by bdehais           #+#    #+#             */
-/*   Updated: 2022/03/01 12:24:03 by bdehais          ###   ########.fr       */
+/*   Updated: 2022/03/01 12:33:22 by bdehais          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		ft_lstadd_back(&result, new);
 		lst = lst->next;
 	}
-	ft_lstclear(&new, del);
+	new = 0;
 	return (result);
 }
