@@ -6,7 +6,7 @@
 /*   By: bdehais <bdehais@student.42mulhouse.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/23 10:55:32 by bdehais           #+#    #+#             */
-/*   Updated: 2022/02/23 13:18:27 by bdehais          ###   ########.fr       */
+/*   Updated: 2022/03/01 12:24:03 by bdehais          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,18 +14,25 @@
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
-	t_list	**res;
-	t_list	*tmp;
+	t_list	*new;
+	t_list	*result;
+	void	*temp;
 
-	res = malloc(sizeof (t_list *));
-	if (!res)
+	if (!lst)
 		return (NULL);
+	result = NULL;
 	while (lst)
 	{
-		tmp = ft_lstnew(f(lst->content));
-		ft_lstadd_back(res, tmp);
-		ft_lstdelone(tmp, del);
+		temp = f(lst->content);
+		new = ft_lstnew(temp);
+		if (!new)
+		{
+			ft_lstclear(&result, del);
+			return (NULL);
+		}
+		ft_lstadd_back(&result, new);
 		lst = lst->next;
 	}
-	return (*res);
+	ft_lstclear(&new, del);
+	return (result);
 }
