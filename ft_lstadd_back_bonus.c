@@ -6,7 +6,7 @@
 /*   By: bdehais <bdehais@student.42mulhouse.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/23 10:55:24 by bdehais           #+#    #+#             */
-/*   Updated: 2022/02/23 12:52:18 by bdehais          ###   ########.fr       */
+/*   Updated: 2022/03/01 12:24:41 by bdehais          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	if (!lst)
 		return ;
 	if (*lst)
-		ft_lstlast(*lst)->next = new;
+		ft_lstlast(*lst)->nx = new;
 	else
 		*lst = new;
 }

@@ -23,8 +23,8 @@
 
 typedef struct s_list
 {
-	void			*content;
-	struct s_list	*next;
+	void			*cont;
+	struct s_list	*nx;
 }					t_list;
 
 # endif
@@ -73,11 +73,11 @@ void	ft_lstadd_front(t_list **lst, t_list *new);
 void	ft_lstadd_back(t_list **lst, t_list *new);
 /* Add the new list at the end of the list pointed by lst */
 void	ft_lstdelone(t_list *lst, void (*del)(void *));
-/* Free the memory of the content of lst with del THEN free
-** DO NOT free the next element */
+/* Free the memory of the cont of lst with del THEN free
+** DO NOT free the nx element */
 void	ft_lstclear(t_list **lst, void (*del)(void *));
-/* Free the memory of the content of lst with del THEN free
-** DO free the next element and set the original pointer to NULL */
+/* Free the memory of the cont of lst with del THEN free
+** DO free the nx element and set the original pointer to NULL */
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 /* Apply f to every element of lst */
 
@@ -127,8 +127,8 @@ char	*ft_itoa(int n);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 /* Allocate and return a string of f(i, s[i]) (NULL if allocation fails) */
 
-t_list	*ft_lstnew(void *content);
-/* Create and return a new list with first element content, and a NULL next
+t_list	*ft_lstnew(void *cont);
+/* Create and return a new list with first element cont, and a NULL nx
 ** (NULL if allocation fails) */
 t_list	*ft_lstlast(t_list *lst);
 /* Return the lat element of a list */
