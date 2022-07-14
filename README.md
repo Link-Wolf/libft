@@ -58,14 +58,14 @@
 
 > illustration here
 
-This project is focused on create our first C library
-It has to be filled with some recoded native functions, but we also added a lot of functions we created during our 42-cursus to still use it by the time
-It is also why it contains the whole [ft_printf](https://github.com/Link-Wolf/ft_printf) project !
+This project is focused on create our first C library <br />
+It has to be filled with some recoded native functions, but we also added a lot of functions we created during our 42-cursus to still use it by the time <br />
+It is also why it contains the whole [ft_printf](https://github.com/Link-Wolf/ft_printf) project or the [get_next_line](https://github.com/Link-Wolf/get_next_line) one for example !
 
 ### What it can do
 -
 -
-- 
+-
 -
 -
 
@@ -75,7 +75,7 @@ It is also why it contains the whole [ft_printf](https://github.com/Link-Wolf/ft
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Because it's a simple C library, there isn't much to say
+Because it's a simple C library, there isn't much to say here
 
 ### Prerequisites
 
@@ -111,7 +111,7 @@ Use all the libft functions as you'd use the equivalents natives ones
 Or read the [documentation](/libft.h) to understand what do and how work the others !
 
 ```c
-  exemple ici 
+  exemple ici
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
