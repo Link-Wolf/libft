@@ -56,7 +56,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Libft header](https://media.discordapp.net/attachments/453159761639112706/997144102422458408/Screen_Shot_2022-07-14_at_4.13.38_PM.png)
+<div align="center">
+  <a>
+    <img src="[https://www.42mulhouse.fr/static/logos/42_MULHOUSE_LOGO.png](https://media.discordapp.net/attachments/453159761639112706/997144102422458408/Screen_Shot_2022-07-14_at_4.13.38_PM.png)" alt="Libft header" width="200" height="200">
+  </a>
+</div>
 
 This project is focused on create our first C library <br />
 It has to be filled with some recoded native functions, but we also added a lot of functions we created during our 42-cursus to still use it by the time <br />
