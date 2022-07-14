@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="https://www.42mulhouse.fr/static/logos/42_MULHOUSE_LOGO.png" alt="Logo" width="460" height="804">
+    <img src="https://www.42mulhouse.fr/static/logos/42_MULHOUSE_LOGO.png" alt="Logo" width="192" height="80">
   </a>
 
   <h3 align="center">libft</h3>
