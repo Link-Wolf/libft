@@ -93,7 +93,7 @@ Having a C compiler like cc, gcc or clang
    ```
 3. Include the libft in your C project
    ```c
-   #include "libft/include/libft.h
+   #include "libft/libft.h
    ```
 4. Compile your project with the libft library
    ```sh
