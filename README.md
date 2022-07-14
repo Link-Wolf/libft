@@ -58,7 +58,7 @@
 
 <div align="center">
   <a>
-    <img src="https://media.discordapp.net/attachments/453159761639112706/997144102422458408/Screen_Shot_2022-07-14_at_4.13.38_PM.png" alt="Libft header" width="200" height="200">
+    <img src="https://media.discordapp.net/attachments/453159761639112706/997144102422458408/Screen_Shot_2022-07-14_at_4.13.38_PM.png" alt="Libft header" width="240" height="402">
   </a>
 </div>
 
