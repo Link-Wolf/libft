@@ -122,6 +122,7 @@ Or read the [documentation](/libft.h) to understand what do and how work the oth
 ## Roadmap
 
 - [x] Add [ft_printf](https://github.com/Link-Wolf/ft_printf)
+- [x] Add [get_next_line](https://github.com/Link-Wolf/get_next_line)
 - [x] Add back to top links
 
 See the [open issues](https://github.com/Link-Wolf/libft/issues) for a full list of proposed features (and known issues).
