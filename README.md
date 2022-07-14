@@ -121,7 +121,18 @@ Having a C compiler like cc, gcc or clang
 Use all the libft functions as you'd use the equivalents natives ones, or read the [documentation](/libft.h) to understand what do and how work the others !
 
 ```c
-  exemple ici
+	char *example = "_-aw,i| \t	WO42s!";
+
+	for (int i = 0; i < ft_strlen(example); i++) {
+		if (!ft_isprint(example[i]) || !ft_isalpha(example[i]))
+			ft_printf("0");
+		else
+			ft_printf("1");
+	}
+```
+Output
+```c
+0011010000110010
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
