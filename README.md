@@ -62,12 +62,19 @@ This project is focused on create our first C library <br />
 It has to be filled with some recoded native functions, but we also added a lot of functions we created during our 42-cursus to still use it by the time <br />
 It is also why it contains the whole [ft_printf](https://github.com/Link-Wolf/ft_printf) project or the [get_next_line](https://github.com/Link-Wolf/get_next_line) one for example !
 
-### What it can do
--
--
--
--
--
+### Reimplemented natives functions
+- is alpha / isdigit / isalnum / isascii / isprint / strlen / memset / bzero / memcpy / memmove / strlcpy / strlcat / toupper / tolower / strchr / strrchr / strncmp / memchr / memcmp / strnstr / atoi /calloc / strdup
+
+### Reinterpreted or new functions
+- ft_printf / ft_substr / ft_strjoin / ft_strtrim / ft_split / ft_itoa / ft_strmapi / ft_striteri / ft_putchar_fd / ft_putstr_fd / ft_putendl_fd / ft_putnb_fd / get_next_line
+
+### New lists functions
+- ft_lstnew / ft_lstadd_front / ft_lstsize / ft_lstlast / ft_lstadd_back / ft_lstdelone / ft_lstclear / ft_lstiter / ft_lstmap
+
+### Additionnals functions added by the time
+- ft_utoa / ft_ultoa_base / ft_utoa_base / ft_strcontain / ft_strcmp / ft_tab_min / ft_tab_max / ft_abs / ft_lstcalendar / ft_memcat / ft_sort_int_tab / ft_lstmaxint / ft_lstminint / ft_sqrt / ft_is_nodoubl / ft_tab_size / ft_print_tab / ft_atou
+
+For all informations about functions behaviour and parameters, check their documentation [here](/libft.h)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
