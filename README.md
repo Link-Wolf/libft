@@ -118,8 +118,7 @@ Having a C compiler like cc, gcc or clang
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use all the libft functions as you'd use the equivalents natives ones
-Or read the [documentation](/libft.h) to understand what do and how work the others !
+Use all the libft functions as you'd use the equivalents natives ones, or read the [documentation](/libft.h) to understand what do and how work the others !
 
 ```c
   exemple ici
