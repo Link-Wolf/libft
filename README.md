@@ -2,9 +2,9 @@
 
 <div align="center">
 	<a href="https://github.com/Link-Wolf/libft" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=Link-Wolf&message=libft&color=blue&logo=github&style=for-the-badge" alt="Link-Wolf - libft"></a>
-	<a href="https://github.com/Link-Wolf/libft"><img src="https://img.shields.io/github/stars/Link-Wolf/libft?style=for-the-badge&color=yellow" alt="stars - libft"></a>
-	<a href="https://github.com/Link-Wolf/libft"><img src="https://img.shields.io/github/forks/Link-Wolf/libft?style=for-the-badge&color=lightgray" alt="forks - libft"></a>
-	<a href="https://github.com/Link-Wolf/libft"><img src="https://img.shields.io/github/issues/Link-Wolf/libft?style=for-the-badge&color=orange" alt="issues - libft"></a>
+	<a href="https://github.com/Link-Wolf/libft/stargazers"><img src="https://img.shields.io/github/stars/Link-Wolf/libft?style=for-the-badge&color=yellow" alt="stars - libft"></a>
+	<a href="https://github.com/Link-Wolf/libft/network/members"><img src="https://img.shields.io/github/forks/Link-Wolf/libft?style=for-the-badge&color=lightgray" alt="forks - libft"></a>
+	<a href="https://github.com/Link-Wolf/libft/issues"><img src="https://img.shields.io/github/issues/Link-Wolf/libft?style=for-the-badge&color=orange" alt="issues - libft"></a>
 	<a href="https://www.apple.com/macos/" title="Go to Apple homepage"><img src="https://img.shields.io/badge/OS-macOS-blue?logo=apple&logoColor=white&style=for-the-badge&color=9cf" alt="OS - macOS"></a>
 </div>
 
