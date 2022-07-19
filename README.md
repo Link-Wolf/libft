@@ -2,6 +2,7 @@
 
 <div align="center">
 	<a href="https://github.com/Link-Wolf/libft" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=Link-Wolf&message=libft&color=blue&logo=github&style=for-the-badge" alt="Link-Wolf - libft"></a>
+	<a href="https://"><img src="https://img.shields.io/badge/42_grade-125_%2F_100-2ea44f?style=for-the-badge" alt="42 grade - 125 / 100"></a>
 	<a href="https://github.com/Link-Wolf/libft/stargazers"><img src="https://img.shields.io/github/stars/Link-Wolf/libft?style=for-the-badge&color=yellow" alt="stars - libft"></a>
 	<a href="https://github.com/Link-Wolf/libft/network/members"><img src="https://img.shields.io/github/forks/Link-Wolf/libft?style=for-the-badge&color=lightgray" alt="forks - libft"></a>
 	<a href="https://github.com/Link-Wolf/libft/issues"><img src="https://img.shields.io/github/issues/Link-Wolf/libft?style=for-the-badge&color=orange" alt="issues - libft"></a>
@@ -169,7 +170,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-<!--Bruno DEHAIS - pro.dehais.bruno@gmail.com -->
+Mail : bdehais@student.42mulhouse.fr
 
 Project Link: [https://github.com/Link-Wolf/libft](https://github.com/Link-Wolf/libft)
 
