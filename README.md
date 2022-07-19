@@ -29,8 +29,6 @@
   </p>
 </div>
 
-<h4 align="center">42 grade : 125 / 100</h4>
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
